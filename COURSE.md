@@ -6,7 +6,7 @@ Udemy course. This folder is used only for this course. Daily logs: `logs/YYYY-M
 | # | Module | Video length | Status | Started | Finished | Work folder |
 |---|--------|--------------|--------|---------|----------|-------------|
 | 1 | Introductory lecture & key success tips | | Done | 2026-11-10 | 2026-11-10 | — |
-| 2 | Claude Cowork, Skills, Plugins, MCP | ~196 mins | In progress | 2026-11-10 | | |
+| 2 | Claude Cowork, Skills, Plugins, MCP | ~196 mins | In progress | 2026-11-10 | | `modules/02-claude-cowork/` |
 | 3 | Claude Chat: prompt engineering, tips & tricks, image recognition, plan build, deep research | ~82 mins | Not started | | | |
 | 4 | Claude in Microsoft Excel | | Not started | | | |
 | 5 | Claude in PowerPoint | | Not started | | | |
