@@ -21,3 +21,6 @@ Each module with practical output lives in its own self-contained folder under `
 ## Conventions
 - Each project folder is standalone: its own README, dependencies, and run instructions.
 - Secrets go in `.env` (git-ignored); commit a `.env.example` instead.
+
+## License
+[Apache 2.0](LICENSE)
