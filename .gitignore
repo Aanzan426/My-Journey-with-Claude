@@ -1,0 +1,28 @@
+# Secrets — this repo is public
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets/
+
+# Dependencies & builds
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+
+# Office temp files (Excel/PowerPoint modules)
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+.vscode/
+.idea/
