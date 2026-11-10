@@ -6,7 +6,7 @@ Each module with practical output lives in its own self-contained folder under `
 ## Projects
 | Module | Project | Description | Folder |
 |--------|---------|-------------|--------|
-| _coming soon_ | | | |
+| 2 | [Gmail connector demo](modules/02-claude-cowork/gmail-connector-demo/) | Agent-built AI-in-healthcare proposal deck + 3-year cost workbook, sent through a Gmail connector, with a review of what the model got right and wrong | `modules/02-claude-cowork/gmail-connector-demo/` |
 
 ## Layout
 ```
