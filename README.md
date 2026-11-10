@@ -1,6 +1,6 @@
-# Claude Masterclass — Project Portfolio
+# My Journey with Claude
 
-Hands-on work from **The Complete Claude Code & Claude Cowork Masterclass (2026)** (Udemy).
+Hands-on work from **The Complete Claude Code & Claude Cowork Masterclass (2026)** (Udemy) — every module I build, in one place.
 Each module with practical output lives in its own self-contained folder under `modules/`.
 
 ## Projects
