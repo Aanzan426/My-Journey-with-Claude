@@ -7,6 +7,9 @@
 credentials*.json
 secrets/
 
+# Third-party source documents (copyrighted; link to them instead)
+modules/**/*.pdf
+
 # Dependencies & builds
 node_modules/
 .venv/
