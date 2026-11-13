@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Agent | Freebuff |
-| Skill | [`linkedin-post-writer`](https://www.skills.sh/social-media-skills/skills/linkedin-post-writer) by social-media-skills (skills.sh) |
+| Skill | [`linkedin-post`](https://www.skillhub.club/skills/different-ai-zero-finance-linkedin-post) by different-ai (from their [zero-finance](https://github.com/different-ai/zero-finance) repo), found on skillhub.club |
 | Source | [The state of AI in 2025: Agents, innovation, and transformation](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) (McKinsey / QuantumBlack, November 2025) |
 | Date | 2026-11-13 |
 
@@ -17,16 +17,15 @@ The PDF is kept locally only (git-ignored): it's McKinsey's copyrighted report, 
 - [skills.mp](https://skills.mp)
 - [anthropics/skills](https://github.com/anthropics/skills): Anthropic's official skills on GitHub.
 
-## Why this skill
-| Candidate | Installs | Notes |
-|---|---|---|
-| `social-media-skills/linkedin-post-writer` | 1.1K | Picked. Passes all three security audits. Gives 2–3 post options and recommends one, puts links in the first comment, avoids engagement bait. |
-| `inklate/linkedin-post` | 2 | Similar idea, barely used. |
-| `acedatacloud/linkedin` | — | Calls the LinkedIn API; publishes rather than writes. Not what's needed. |
+## The skill
+[`SKILL.md`](https://github.com/different-ai/zero-finance/blob/main/.opencode/skill/linkedin-post/SKILL.md) (MIT). SkillHub AI score 8.4/10; its automated security review expired on 2026-06-27.
 
-```bash
-npx skills add https://github.com/social-media-skills/skills --skill linkedin-post-writer
-```
+It's an in-house skill from a fintech startup (0 Finance), not a general-purpose one:
+- **Reusable parts:** a post structure (hook → context → insight → proof → soft CTA), three templates (video teaser, product demo, behind-the-scenes), a pre-posting checklist, and anti-patterns to avoid (corporate announcements, feature dumps, humble brags).
+- **Company-specific parts that won't apply here:** steps 1–2 search the company's private Notion "Tweet Lab" and marketing-audit pages through a Notion connector; neither is accessible, so the agent should skip them. The compliance section is about SEC rules for crypto-yield wording.
+- **Mismatch to watch:** its templates are built around showing off a product demo, while this input is a research report. The "behind-the-scenes" or a data-led "bold claim" structure fits a report best.
+
+Alternatives considered on skills.sh: `social-media-skills/linkedin-post-writer` (1.1K installs, more general), `inklate/linkedin-post` (2 installs), `acedatacloud/linkedin` (publishes through the LinkedIn API instead of writing).
 
 ## Report: key findings (for checking the post)
 1. Nearly two-thirds of organizations have not begun scaling AI across the enterprise.
